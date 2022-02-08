@@ -1,11 +1,11 @@
 <h1>Create an instrument</h1>
 
-<form method="get" action="/instrument/create-instrument">
+<form method="post" action="/instruments/create-instrument">
 
-  <input placeholder="name" type="'text" />
-  <input placeholder="type" type="'text" />
-  <input placeholder="genre" type="'text" />
-  <input placeholder="price" type="'number" />
+  <input name="name" type="text" />
+  <input name="type" type="text" />
+  <input name="genre" type="text" />
+  <input name="price" type="number" />
 
   <button type="submit">
     Create
